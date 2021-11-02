@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+POMO_PATH=/home/angel/pomo
+export POMO_FILE=$POMO_PATH/pomofile
+
+$POMO_PATH/pomo.sh start
+
+$POMO_PATH/pomo.sh status
+
